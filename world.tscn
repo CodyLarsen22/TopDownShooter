@@ -1,0 +1,41 @@
+[gd_scene load_steps=3 format=3 uid="uid://i205uh0n1r63"]
+
+[ext_resource type="PackedScene" uid="uid://cr3j4bywpjkh0" path="res://player.tscn" id="1_vlabi"]
+[ext_resource type="PackedScene" uid="uid://u75pqic521xn" path="res://zombie.tscn" id="2_6mqcs"]
+
+[node name="world" type="Node2D"]
+
+[node name="player" parent="." instance=ExtResource("1_vlabi")]
+position = Vector2(529, 272)
+
+[node name="Camera2D" type="Camera2D" parent="player"]
+
+[node name="zombie" parent="." instance=ExtResource("2_6mqcs")]
+position = Vector2(86, 82)
+
+[node name="zombie2" parent="." instance=ExtResource("2_6mqcs")]
+position = Vector2(91, 514)
+
+[node name="zombie3" parent="." instance=ExtResource("2_6mqcs")]
+position = Vector2(1007, 85)
+
+[node name="zombie4" parent="." instance=ExtResource("2_6mqcs")]
+position = Vector2(86, 215)
+
+[node name="zombie5" parent="." instance=ExtResource("2_6mqcs")]
+position = Vector2(91, 314)
+
+[node name="zombie6" parent="." instance=ExtResource("2_6mqcs")]
+position = Vector2(217, 78)
+
+[node name="zombie7" parent="." instance=ExtResource("2_6mqcs")]
+position = Vector2(370, 71)
+
+[node name="zombie8" parent="." instance=ExtResource("2_6mqcs")]
+position = Vector2(549, 68)
+
+[node name="zombie9" parent="." instance=ExtResource("2_6mqcs")]
+position = Vector2(785, 70)
+
+[node name="zombie10" parent="." instance=ExtResource("2_6mqcs")]
+position = Vector2(95, 422)
